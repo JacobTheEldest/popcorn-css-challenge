@@ -3,3 +3,70 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+*{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  padding: 2%;
+  background-color: #FFDBAA;
+  border-bottom: 1px solid black;
+}
+h1{
+  display: inline-block;
+  color: #553100;
+}
+#navigation{
+  display: inline-block;
+  margin-left: 15%;
+}
+button{
+  background: #805215;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#navigation button{
+  display: inline-block;
+  width: 110px;
+  margin-left: 25px;
+  border-style: none;
+}
+
+#overall{
+  background-color: #D4A76A;
+  height: 100vh;
+  width: 100%;
+}
+
+.card{
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 0px 17px 0px rbga(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  width: 20%;
+  height: 150px;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+.card h2{
+  text-align: center;
+}
+.wide-card{
+  width: 84%;
+}
+.card p{
+  margin-top: 10px;
+  height: 70px;
+}
+.card button{
+  width: 100%;
+  border: 1px solid black;
+
+}
